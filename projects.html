@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Advait&#39;s website">
+
+    <link rel="shortcut icon" href="advait-favicon.jpeg">
+    <link rel="alternate" type="application/rss+xml" href="https://advaitiyer.com/index.xml" title="Advait Iyer">
+
+    <link rel="stylesheet" href="style.css">
+
+    <title>Projects | Advait Iyer</title>
+
+    <!-- Google tag (gtag.js) -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=G-XH39YF3VRE"></script>
+    <script>
+        window.dataLayer = window.dataLayer || [];
+        function gtag() { dataLayer.push(arguments); }
+        gtag('js', new Date());
+
+        gtag('config', 'G-XH39YF3VRE');
+    </script>
+</head>
+
+<body>
+    <header id="banner">
+        <h2><a href="index.html">Advait Iyer</a> | Projects</h2>
+    </header>
+    <main id="content">
+        <p>Here are some things I've worked on (incomplete, to be updated).</p>
+        <!-- <h4><i>Verilog/SystemVerilog</i></h4> -->
+        <div class="experience">
+            <h3><b>Advanced Out-of-Order RISC-V Processor</b></h3>
+            <p>- Designed a pipelined processor in <b>SystemVerilog</b> for the RISC-V ISA using P6 style renaming, an N-way superscalar design, early tag broadcast, early branch resolution, and GShare branch prediction.</p> 
+            <p>- Also incorporated instruction prefetching, non-blocking instruction and data caches (N-way set-associative and banked, respectively), a victim cache, and a load-store queue with
+            forwarding.</p>
+            <p>- Achieved a clock frequency of 93.75MHz and an average CPI of 1.7 on a suite of programs including Alexnet, sorting algorithms, and geometric functions.</p>
+        </div>
+        <div class="experience">
+            <h3><b>Roll Over Beethoven: A Cloth Piano</b></h3>
+            <p>- A foldable, portable piano/keyboard. It comprises the core instrument with cloth keys (on foldable card paper for the
+            prototype), a graphics display (for feedback and tutorials), and a sustain pedal.</p>
+            <p>- Wrote drivers for the sensors and display + synthesized different timbres + created a tutorial in <b>C.</b></p>
+            <p>- <a href="https://github.com/adviyer/cloth-piano/tree/master">Code</a>.</p>
+        </div>
+        <div class="experience">
+            <h3><b>Formal Verification of FtTokenCMP</b></h3>
+            <p>- Formally verified <b>FtTokenCMP</b>, a fault-tolerant, token-based cache coherence protocol using <b>Murphi</b>.
+            <p>- <a href="https://github.com/adviyer/ft-token/tree/bounds">Code</a>.</p>
+        </div>
+        <div class="experience">
+            <h3><b>Course Autograder for FPGA design verification, EECS 270</b></h3>
+            <p>- Co-developed testing frameworks in <b>Verilog</b>, set up <b>Docker</b> environment, and wrote testbenches to verify student designs.</p>
+            <p>- Deployed on autograder.io.</p> 
+        </div>
+
+        <div class="experience">
+            <h3><b>FPGA Design Projects</b></h3>
+            <p>- Designed a four function calculator, traffic lights controller and carry lookahead adder.</p>
+            <p>- Deployed and verified on <b>Altera DE2-115</b> boards.</p>
+        </div>
+
+        <div class="experience">
+            <h3><b>Robotic Planning and Controls Projects</b></h3>
+            <p>- iLQR implementation in <b>Pytorch</b> for the inverted double-pendulum on a cart.</p>
+            <p>- MPC and MPPI for linearizing cartpole and robot arm dynamics.</p>
+            <p>- Dynamics from state measurements, with Gaussian processes.</p>
+        </div>
+
+        <div class="experience">
+            <h3><b>Misc Class Projects in C/C++</b></h3>
+            <p>- RISC-V assembler, simulator, linker</p>
+            <p>- Pipeline and cache simulators in C</p>
+            <p>- Tarjan's pairing heap</p>
+            <p>- SQL-like relational database</p>
+            <p>- Among Us simulator with optimal TSP</p> 
+            <p>- Seam-carving for image resizing</p>
+            <p>- Piazza posts classifier</p>
+            <p>- Plants vs Zombies simulator</p>
+            <p>- Euchre simulator</p>
+        </div>
+    </main>
+    <footer id="footer">
+        <p>
+            <a href="writing.html">Writing</a> •
+            <a href="projects.html">Projects</a> •
+            <a href="quotes.html">Quotes</a> •
+            <a href="work.html">Experience</a> •
+            <a href="https://wiki.advaitiyer.com">Wiki</a> •
+            <a href="https://twitter.com/advaitsi">Twitter</a> •
+            <a href="https://github.com/adviyer">Github</a> •
+            <a href="https://linkedin.com/in/advaitiyer">LinkedIn</a>
+        </p>
+    </footer>
+</body>
+
+</html>
